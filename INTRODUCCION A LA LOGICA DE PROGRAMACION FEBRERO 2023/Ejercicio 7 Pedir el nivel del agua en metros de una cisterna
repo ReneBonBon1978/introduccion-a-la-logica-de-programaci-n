@@ -3,9 +3,24 @@
 
 # ENTRADAS DE DATOS
 # Declarar o crear las variables
-niveldelagua = int(input("Ingresa un numero: "))
+niveldelagua = int(input("Ingresa el nivel de agua: "))
 
 # DECLARAR UNA CONSTANTE (Elemento que no puede cambiar su valor)
 
 
 # Procesos (Cálculos Matemáticos y/o Lógicos)
+if (niveldelagua < 0): 
+    print("Existe una fuga en el tinaco")
+
+elif (niveldelagua == 0):
+    print("Encender la bomba de agua para llenar el tinaco")
+elif (niveldelagua >= 0 and niveldelagua <=2):
+    print("Acelerar la bomba de agua para llenar el tinaco")  
+if (niveldelagua >= 2 and niveldelagua <=4):
+    print("La bomba de agua esta trabajando para llenar el tinaco")  
+elif (niveldelagua >= 4 and niveldelagua <6):
+    print("Desacelerar la bomba de agua para llenar el tinaco") 
+if (niveldelagua == 6):
+    print("La bomba de agua debe apagarse") 
+elif (niveldelagua >= 6):
+    print("Desbordamiento de agua para llenar el tinaco") 

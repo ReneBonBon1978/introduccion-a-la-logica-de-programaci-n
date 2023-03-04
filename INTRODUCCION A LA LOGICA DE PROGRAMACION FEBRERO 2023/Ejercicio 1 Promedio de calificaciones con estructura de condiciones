@@ -1,0 +1,20 @@
+# Calificaciones
+
+
+# ENTRADAS DE DATOS
+# Declarar o crear las variables
+calificación_1 = float(input("Ingresa la calificacion uno: "))
+calificación_2 = float(input("Ingresa la calificacion dos: "))
+calificación_3 = float(input("Ingresa la calificacion tres: "))
+
+# Procesos (Cálculos Matemáticos y/o Lógicos)
+promedio = (calificación_1 + calificación_2 + calificación_3) / 3
+if (promedio >= 6.5 and promedio <= 10):
+    print("Usted esta aprobado")
+elif (promedio >= 6 and promedio < 6.5):
+    print("Usted paso de pansaso")
+elif (promedio >= 0 and promedio < 6): 
+    print("Usted esta reprobado")    
+elif (promedio < 0 or promedio > 10): 
+    print("Usted tiene un promedio invalido") 
+print(f"La calificacion promedio es = {round(promedio,2)}")
