@@ -1,0 +1,21 @@
+# CONVERTIR UN NUMERO DETERMINADO EN GRADOS CELSIUS, FAHRENHEIT Y KELVIN
+
+
+# ENTRADAS DE DATOS
+# Declarar o crear las variables
+temperatura_1 = float(input("Ingresa la temperatura: "))
+
+# DECLARAR UNA CONSTANTE (Elemento que no puede cambiar su valor)
+C = 0
+K = 273.15
+F = 32
+
+# Procesos (Cálculos Matemáticos y/o Lógicos)
+celsius = C + (temperatura_1)
+kelvin = temperatura_1 + K
+fahrenheit = ((9 * temperatura_1) / 5) + F
+
+# Salida de datos
+print(f"temperatura en grados celsius = {round(celsius,2)}")
+print(f"temperatura en grados kelvin = {round(kelvin,3)}")
+print(f"temperatura en grados fahrenheit = {round(fahrenheit,3)}")

@@ -1,0 +1,15 @@
+# Calcular la edad de una persona
+
+
+# ENTRADAS DE DATOS
+# Declarar o crear las variables
+añodenacimiento = float(input("Ingresa tu año de nacimiento: "))
+
+# DECLARAR UNA CONSTANTE (Elemento que no puede cambiar su valor)
+AÑO = 2023
+
+# Procesos (Cálculos Matemáticos y/o Lógicos)
+edad = AÑO - añodenacimiento
+
+# Salida de datos
+print(f"tu edad es = {round(edad,2)}")

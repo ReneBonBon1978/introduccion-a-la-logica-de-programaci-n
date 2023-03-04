@@ -1,0 +1,24 @@
+# ASIGNAR LOS VALORES DE A,B Y C PARA CALCULAR LA FORMULA GENERAL 
+
+# Importar librerias o bibliotecas para funciones matematicas
+import math
+
+
+# ENTRADAS DE DATOS
+# Declarar o crear las variables
+formulageneral_1 = float(input("Ingresa el valor de A: "))
+formulageneral_2 = float(input("Ingresa el valor de B: "))
+formulageneral_3 = float(input("Ingresa el valor de C: "))
+
+
+# DECLARAR UNA CONSTANTE (Elemento que no puede cambiar su valor)
+X = 4
+Y = 2
+
+# Procesos (Cálculos Matemáticos y/o Lógicos)
+valordeX1 = (-formulageneral_2 + (((formulageneral_2 ** Y) - (X * formulageneral_1 * formulageneral_3)) ** 0.5)) / (Y * formulageneral_1)
+valordeX2 = (-formulageneral_2 - (((formulageneral_2 ** Y) - (X * formulageneral_1 * formulageneral_3)) ** 0.5)) / (Y * formulageneral_1)
+
+# Salida de datos
+print(f"Resultado de los valores ingresados en la formula general para X1= {round(valordeX1,2)}")
+print(f"Resultado de los valores ingresados en la formula general para X2= {round(valordeX2,2)}")

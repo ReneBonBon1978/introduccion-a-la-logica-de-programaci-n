@@ -1,0 +1,19 @@
+# Calcular area y perimetro
+
+
+# ENTRADAS DE DATOS
+# Declarar o crear las variables
+area_1 = float(input("Ingresa el radio: "))
+# perimetro_2 = float(input("Ingresa el diametro"))
+
+# DECLARAR UNA CONSTANTE (Elemento que no puede cambiar su valor)
+
+PI = 3.1416
+
+# Procesos (Cálculos Matemáticos y/o Lógicos)
+area = PI * (area_1 * area_1)
+perimetro = 2 * PI *(area_1) 
+
+# Salida de datos
+print(f"El area del circulo es = {round(area,2)}")
+print(f"El perimetro del circulo es = {round(perimetro,2)}")

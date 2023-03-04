@@ -1,0 +1,11 @@
+# PEDIR EL NIVEL DEL AGUA EN METROS DE UNA CISTERNA
+
+
+# ENTRADAS DE DATOS
+# Declarar o crear las variables
+niveldelagua = int(input("Ingresa un numero: "))
+
+# DECLARAR UNA CONSTANTE (Elemento que no puede cambiar su valor)
+
+
+# Procesos (Cálculos Matemáticos y/o Lógicos)
