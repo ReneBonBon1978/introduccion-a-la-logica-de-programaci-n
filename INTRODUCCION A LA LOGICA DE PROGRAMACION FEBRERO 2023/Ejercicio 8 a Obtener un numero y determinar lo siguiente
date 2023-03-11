@@ -1,0 +1,27 @@
+# OBTENER UN NUMERO Y DETERMINAR LO SIGUIENTE:
+# A) SI ES NEGATIVO Y MENOR A -100 IMPRIMIR LOS NUMEROS IMPARES DE FORMA DESCENDENTE.
+# B) SI ES POSITIVO Y MENOR A 100 IMPRIMIR LOS NUMEROS PARES DE FORMA ASCENDENTE.
+# C) EN OTRO CASO IMPRIMIR NO VALIDO.
+
+
+# ENTRADAS DE DATOS
+# Declarar o crear las variables
+
+numeroingresado = float(input("Ingresa un numero: "))
+
+# Procesos (Cálculos Matemáticos y/o Lógicos)
+if (numeroingresado < 0 and numeroingresado >- 100):
+    print(f"Cumple")
+
+    for i in range(-1,-101,-2):
+        print(i,"Numero Impar")
+
+elif (numeroingresado >0 and numeroingresado <100):
+    print(f"Cumple dos")
+
+    for i in range(0,100,2):
+        print(i,"Numero Par")
+
+elif (numeroingresado <=100 or numeroingresado == 0 or numeroingresado>=100):
+    print(f"Numero invalido")
+

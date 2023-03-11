@@ -3,3 +3,42 @@
 # B) SI ES POSITIVO Y MENOR A 100 IMPRIMIR LOS NUMEROS PARES DE FORMA ASCENDENTE.
 # C) EN OTRO CASO IMPRIMIR NO VALIDO.
 
+
+# ENTRADAS DE DATOS
+# Declarar o crear las variables
+numero=1
+a=0
+b=0
+c=0
+while numero <= 10:
+    numeroingresado = int(input(f"Ingresa un numero {numero}: "))
+    if numeroingresado == 0:
+        a = a + 1
+    else:
+        if numeroingresado < 0:
+            b = b + 1
+        else:
+            c = c + 1
+    numero += 1
+print(f"{a} Numeros son no validos")
+print(f"{b} Numeros son negativos")
+print(f"{c} Numeros son positivos")
+
+
+                
+
+
+
+    
+                   
+
+
+
+
+
+   
+
+
+   
+
+
